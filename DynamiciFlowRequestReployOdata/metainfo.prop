@@ -1,0 +1,3 @@
+#Store metainfo properties
+#Sun Oct 25 15:05:45 UTC 2026
+description=DynamiciFlowRequestReployOdata from SAPCPIRealTimewithVenkat\n\nThis iflow using request reply call different methods of NorthWindOdata API and response will give back to postman

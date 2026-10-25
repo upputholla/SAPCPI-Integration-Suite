@@ -1,0 +1,3 @@
+#Store metainfo properties
+#Sun Oct 25 16:50:42 UTC 2026
+description=input csv based on link brak data will split, general splitter retains header if xml parent elements , iterative splits out peaces no parent structure retains , in case of csv no header for iterative

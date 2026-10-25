@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Customers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="1" maxOccurs="unbounded" name="Customer">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" nillable="false" maxOccurs="1" name="CustomerID" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="CompanyName" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="ContactName" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="ContactTitle" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="Address" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="City" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="Region" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="PostalCode" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="Country" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="Phone" xmlns=""/>
+                            <xs:element type="xs:string" nillable="true" minOccurs="0" maxOccurs="1" name="Fax" xmlns=""/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

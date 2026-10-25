@@ -175,7 +175,59 @@
                 </ifl:property>
                 <ifl:property>
                     <key>wrapContent</key>
-                    <value/>
+                    <value>&lt;Orders&gt;
+
+    &lt;Order&gt;
+        &lt;OrderID&gt;ORD1001&lt;/OrderID&gt;
+
+        &lt;Items&gt;
+            &lt;Item&gt;
+                &lt;Product&gt;Laptop&lt;/Product&gt;
+                &lt;Price&gt;800&lt;/Price&gt;
+                &lt;OrderTotal&gt;870&lt;/OrderTotal&gt;
+            &lt;/Item&gt;
+
+            &lt;Item&gt;
+                &lt;Product&gt;Mouse&lt;/Product&gt;
+                &lt;Price&gt;20&lt;/Price&gt;
+                &lt;OrderTotal&gt;870&lt;/OrderTotal&gt;
+            &lt;/Item&gt;
+
+            &lt;Item&gt;
+                &lt;Product&gt;Keyboard&lt;/Product&gt;
+                &lt;Price&gt;50&lt;/Price&gt;
+                &lt;OrderTotal&gt;870&lt;/OrderTotal&gt;
+            &lt;/Item&gt;
+        &lt;/Items&gt;
+
+    &lt;/Order&gt;
+
+    &lt;Order&gt;
+        &lt;OrderID&gt;ORD1002&lt;/OrderID&gt;
+
+        &lt;Items&gt;
+            &lt;Item&gt;
+                &lt;Product&gt;Desk&lt;/Product&gt;
+                &lt;Price&gt;300&lt;/Price&gt;
+                &lt;OrderTotal&gt;700&lt;/OrderTotal&gt;
+            &lt;/Item&gt;
+
+            &lt;Item&gt;
+                &lt;Product&gt;Chair&lt;/Product&gt;
+                &lt;Price&gt;150&lt;/Price&gt;
+                &lt;OrderTotal&gt;700&lt;/OrderTotal&gt;
+            &lt;/Item&gt;
+
+            &lt;Item&gt;
+                &lt;Product&gt;Cabinet&lt;/Product&gt;
+                &lt;Price&gt;250&lt;/Price&gt;
+                &lt;OrderTotal&gt;700&lt;/OrderTotal&gt;
+            &lt;/Item&gt;
+        &lt;/Items&gt;
+
+    &lt;/Order&gt;
+
+&lt;/Orders&gt;</value>
                 </ifl:property>
                 <ifl:property>
                     <key>componentVersion</key>
@@ -195,7 +247,7 @@
         </bpmn2:callActivity>
         <bpmn2:startEvent id="StartEvent_4" name="Start Timer 1">
             <bpmn2:outgoing>SequenceFlow_1</bpmn2:outgoing>
-            <bpmn2:timerEventDefinition id="TimerEventDefinition_707109">
+            <bpmn2:timerEventDefinition id="TimerEventDefinition_44008">
                 <bpmn2:extensionElements>
                     <ifl:property>
                         <key>scheduleKey</key>
